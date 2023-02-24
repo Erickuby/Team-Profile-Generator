@@ -134,27 +134,27 @@ function createTeam() {
         ],
       },
     ])
-    .then((choice) => {
-        if (choice.memberChoice === "Engineer") {
-          createEngineer();
-        } else if (choice.memberChoice === "Intern") {
-          createIntern();
-        } else {
-          const html = render(team);
-          if (!fs.existsSync(OUTPUT_DIR)) {
-            fs.mkdirSync(OUTPUT_DIR);
-          }
+//     .then((choice) => {
+//         if (choice.memberChoice === "Engineer") {
+//           createEngineer();
+//         } else if (choice.memberChoice === "Intern") {
+//           createIntern();
+//         } else {
+//           const html = render(team);
+//           if (!fs.existsSync(OUTPUT_DIR)) {
+//             fs.mkdirSync(OUTPUT_DIR);
+//           }
   
-          fs.writeFile(outputPath, html, (err) => {
-            if (err) {
-              console.log("Failed to write HTML file");
-            } else {
-              console.log("Successfully wrote HTML file");
-            }
-          });
-        }
-      });
-  }
+//           fs.writeFile(outputPath, html, (err) => {
+//             if (err) {
+//               console.log("Failed to write HTML file");
+//             } else {
+//               console.log("Successfully wrote HTML file");
+//             }
+//           });
+//         }
+//       });
+//   }
   
-  createManager();
+//   createManager();
   
