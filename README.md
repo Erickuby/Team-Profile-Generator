@@ -24,15 +24,18 @@ After entering all team members’ information, an HTML file will be generated i
 
 ## Dependencies
 
-* `inquirer package: used to prompt the user for inputs via the command line
+- `inquirer package: used to prompt the user for inputs via the command line
 
-* `path package: used to work with file and directory paths
- 
-* `fs package: used to write the generated HTML file to the file system
-  
-* `page-template.js: a module that exports a function to generate the team profile HTML page template
+- `path package: used to work with file and directory paths
 
-* `Manager, Engineer, and Intern classes: classes that extend from a base Employee class and contain properties specific to each role.
+- `fs package: used to write the generated HTML file to the file system
+- `page-template.js: a module that exports a function to generate the team profile HTML page template
+
+- `Manager, Engineer, and Intern classes: classes that extend from a base Employee class and contain properties specific to each role.
+
+## Sample HTML file
+
+![Screenshot HTML webpage.](./Assets/HTML-sample-file.png)
 
 ---
 
@@ -41,4 +44,5 @@ After entering all team members’ information, an HTML file will be generated i
 This application was developed by Eric Nwankwo.
 
 ---
+
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
